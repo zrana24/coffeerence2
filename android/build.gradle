@@ -1,0 +1,36 @@
+buildscript {
+    ext.kotlin_version = "2.0.21"
+
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // AGP – Flutter ile uyumlu sürüm
+        classpath "com.android.tools.build:gradle:7.3.1"
+
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        // Firebase için
+        classpath "com.google.gms:google-services:4.4.2"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(':app')
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

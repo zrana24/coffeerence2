@@ -1,0 +1,47 @@
+name: coffeerence
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+9
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.27.0
+  firebase_messaging: ^14.6.4
+  http: ^0.13.5
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.2.6
+  mobile_scanner: ^7.1.3
+  flutter_native_splash: ^2.3.11
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  assets:
+    - assets/image/
+    - assets/icon/
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: "assets/icon/logo.png"
+  image_path_ios: "assets/icon/logo.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  image: assets/icon/logo.png
+  android_gravity: center
+  ios_content_mode: center

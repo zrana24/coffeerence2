@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "977161513947",
+    "project_id": "cofferance",
+    "storage_bucket": "cofferance.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977161513947:android:2d7733ffc98d42358d95fe",
+        "android_client_info": {
+          "package_name": "com.cofference.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk8l-jsGJjIBHGVwSPz6xxH9Oa-BkqqWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977161513947:android:4df406c4b03f07ac8d95fe",
+        "android_client_info": {
+          "package_name": "com.example.cofference"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk8l-jsGJjIBHGVwSPz6xxH9Oa-BkqqWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
